@@ -6,7 +6,8 @@ Version 28-5-2013
 Copyright (C) 2011  Albert van Dalen http://www.avdweb.nl
 
 Refer to http://www.avdweb.nl/arduino/hardware-interfacing/frequency-period-counter.html for details
- 
+
+``` 
 Release Notes
 -------------
 17-12-2011 timeFunctionPtr to select millis or micros instead of bool variable
@@ -29,4 +30,4 @@ transientTime ^              ^                   ^               ^
 level                1                 0                  1                0       
 debounceTime  <-->           <-->                <-->            <--> 
 																<- elapsedTime ->
-*/
+```
